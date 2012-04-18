@@ -1,0 +1,473 @@
+    1  ruby -e "$(curl -fksSL http://bit.ly/GG3YSB)"
+    2  brew install git
+    3  git
+    4    bash -s stable < <(curl -s http://bit.ly/r52UYO)
+    5  rvm
+    6  bash -s stable < <(curl -s http://bit.ly/r52UYO)
+    7  curl -L get.rvm.io | bash -s stable
+    8  rvm
+    9  cd ~/.ssh
+   10  ssh-keygen -t rsa -C "michaelrkn@gmail.com"
+   11  mate ./.ssh/id_rsa.pub
+   12  ssh -T git@github.com
+   13  git config --global user.name "michael"
+   14  git config --global user.email "michaelrkn@gmail.com"
+   15  git clone git@github.com:impactdialing/Impact-Dialing.git
+   16  mate .gemrc
+   17  mate ~/.gemrc
+   18  cd Impact-Dialing/
+   19  rvm
+   20  rvm install 1.9.3
+   21  ruby -v
+   22  rvm install 1.9.2
+   23  use ruby 1.9.2
+   24  rvm use 1.9.2
+   25  cd Impact-Dialing/
+   26  cd config
+   27  git rm untitled.tmproj 
+   28  git rm untitled.tmproj -f
+   29  pwd
+   30  git rm database.yml.sample
+   31  ls -la
+   32  cp database.yml database.yml.sample
+   33  cd ..
+   34  rake db:initialize
+   35  rake db:migrate --trace
+   36  bundle
+   37  rake db:migrate --trace
+   38  git checkoutgit config --global alias.co checkout
+   39  git config --global alias.co checkout
+   40  git co master
+   41  git branch -D michael
+   42  git co -b michael
+   43  rake db:migrate
+   44  git co master
+   45  git co michael
+   46  git stash
+   47  rake db:migrate
+   48  rake db:migrate
+   49  rake db:migrate --trace
+   50  cd I
+   51  rspec spec/
+   52  rvm install ruby-1.9.2-p180
+   53  rvm list
+   54  rvm delete 1.9.2-p318
+   55  rvm remove 1.9.2-p318
+   56  rvm default 1.9.2
+   57  rvm default 1.9.2-p180
+   58  rvm ?
+   59  ruby -v
+   60  cd Impact-Dialing/
+   61  git branch
+   62  git branch michael
+   63  git status
+   64  git status
+   65  git branch
+   66  git co michael
+   67  git checkout michael
+   68  git status
+   69  ls
+   70  git rm tx-calls.csv 
+   71  bundle
+   72  bundle
+   73  bundle
+   74  bundle
+   75  bundle install --without production
+   76  bundle
+   77  rake db:migrate
+   78  rake db:migrate
+   79  rake db:migrate
+   80  rails s thin
+   81  ruby -v
+   82  rvm default 1.9.3
+   83  ruby -v
+   84  bundle exec spork
+   85  bundle exec spork
+   86  cd demo_app/
+   87  rails generate scaffold Micropost content:string user_id:integer
+   88  rake db:migrate
+   89  rails console
+   90  cd ..
+   91  rails new sample_app
+   92  rm -rf sample_app/
+   93  rail snew sample_app --skip-test-unit
+   94  rails new sample_app --skip-test-unit
+   95  cd sample_app/
+   96  mate Gemfile
+   97  bundle install --without production
+   98  bundle install --without production
+   99  sqlite3 --version
+  100  rm -rf .bundle
+  101  bundle install --without production
+  102  bundle install --without production
+  103  rails generate rspec:install
+  104  git init
+  105  git add .
+  106  git commit -m "initial commit"
+  107  git mv README.rdoc README.md
+  108  git commit -am "improved the readme"
+  109  rails generate controller StaticPages home help --no-test-framework
+  110  rails generate view Elephants home
+  111  git add .
+  112  git commit -m 'added a StaticPages controller'
+  113  rails generate integration_test static_pages
+  114  bundle exec rspec spec/requests/static_pages_spec.rb 
+  115  bundle exec rspec spec/requests/static_pages_spec.rb 
+  116  bundle exec rspec spec/requests/static_pages_spec.rb 
+  117  bundle exec rspec spec/requests/static_pages_spec.rb 
+  118  bundle exec rspec spec/requests/static_pages_spec.rb 
+  119  bundle exec rspec spec/requests/static_pages_spec.rb 
+  120  bundle exec rspec spec/requests/static_pages_spec.rb 
+  121  bundle exec rspec spec/requests/static_pages_spec.rb 
+  122  bundle exec rspec spec/requests/static_pages_spec.rb 
+  123  bundle exec rspec spec/requests/static_pages_spec.rb 
+  124  bundle exec rspec spec/requests/static_pages_spec.rb 
+  125  bundle exec rspec spec/requests/static_pages_spec.rb 
+  126  bundle exec rspec spec/requests/static_pages_spec.rb 
+  127  bundle exec rspec spec/requests/static_pages_spec.rb 
+  128  bundle exec rspec spec/requests/static_pages_spec.rb 
+  129  bundle exec rspec spec/requests/static_pages_spec.rb 
+  130  bundle exec rspec spec/requests/static_pages_spec.rb 
+  131  bundle exec rspec spec/requests/static_pages_spec.rb 
+  132  bundle exec rspec spec/requests/static_pages_spec.rb 
+  133  bundle exec rspec spec/requests/static_pages_spec.rb 
+  134  bundle exec rspec spec/requests/static_pages_spec.rb 
+  135  git branch
+  136  git add .
+  137  git commit -m 'finished static pages'
+  138  git commit -m 'finished static pages'
+  139  rspec spec/
+  140  rspec spec/
+  141  rspec spec/
+  142  rspec spec/
+  143  rspec spec/
+  144  rspec spec/
+  145  rspec spec/
+  146  rspec spec/
+  147  rvm get head && rvm reload
+  148  chmod +x $rvm_path/hooks/after_cd_bundler
+  149  cd ~/sample_app/
+  150  bundle install --without production --binstubs=./bundler_stubs
+  151  mate .gitignore
+  152  bundle install
+  153  bundle esec spork --bootstrap
+  154  bundle exec spork --bootstrap
+  155  time bundle exec rspec spec/
+  156  time bundle exec rspec spec/ --drb
+  157  mate .rspec
+  158  mate .rspec
+  159  rspec /spec
+  160  rspec /spec
+  161  rspec /spec
+  162  rspec spec/
+  163  clear
+  164  rspec
+  165  rspec spec/
+  166  rspec spec/
+  167  rspec spec/
+  168  rspec spec/
+  169  rspec spec/
+  170    git remote add origin git@github.com:michaelrkn/sample_app.git
+  171  git push
+  172  git push -u origin master
+  173  gem update --system
+  174  rails new demo_app
+  175  cd ..
+  176  rails new demo_app
+  177  gem install rails -v 3.2.3
+  178  rails new demo_app
+  179  mate Gemfile
+  180  cd demo_app/
+  181  mate Gemfile
+  182  bundle install --without production
+  183  git init
+  184  git add .
+  185  git commit -m "initial commit"
+  186  rails generate scaffold User name:string email:string
+  187  rake db:migrate
+  188  rails s
+  189  cd ../sample_app/
+  190  rails s
+  191  cd sample_app/
+  192  spork
+  193  rails s
+  194  rails s
+  195  cd ..
+  196  rm -rf sample_app/
+  197  git clone git://github.com/michaelrkn/sample_app.git
+  198  cd sample_app/
+  199  git status
+  200  git branch
+  201  bundle
+  202  rspec spec/
+  203  rake db:migrate
+  204  rake db:test:prepare
+  205  rspec spec/
+  206  rspec spec/
+  207  rspec spec/
+  208  rspec spec/
+  209  rspec spec/
+  210  rspec spec/
+  211  rake db:reset
+  212  rake db:test:prepare
+  213  rspec spec/
+  214  rspec spec/
+  215  rspec spec/
+  216  rspec spec/
+  217  rspec spec/
+  218  rspec spec/
+  219  git add .
+  220  git commit -m "finished user signup"
+  221  git co master
+  222  git merge sign-up
+  223  git branch
+  224  git commit -am "add ssl in production"
+  225  git push
+  226  mate .git/config
+  227  git push
+  228  git push heroku master
+  229  gem install heroku
+  230  git push heroku master
+  231  git add .
+  232  git commit -m "added heroku"
+  233  git push
+  234  heroku keys:add
+  235  heroku create --stack cedar
+  236  git push heroku
+  237  git push heroku master
+  238  git status
+  239  bundle
+  240  git push heroku master
+  241  git commit -m "removed heroku gem"
+  242  bundle
+  243  git add .
+  244  git commit -m "removed heroku gem"
+  245  git push
+  246  git push heroku master
+  247  heroku open
+  248  heroku run rake db:migrate
+  249  git commit -m "view typo"
+  250  git commit -am "view typo"
+  251  git push
+  252  git push heroku master
+  253  rspec spec/
+  254  rspec spec/
+  255  git add. 
+  256  git add .
+  257  git commit -am "little changes to user signup"
+  258  git push
+  259  git push heroku master
+  260  git checkout -b sign-in-out
+  261  rspec spec/
+  262  rspec spec/
+  263  rspec spec/
+  264  rspec spec/
+  265  rspec spec/
+  266  rspec spec/
+  267  rspec spec/
+  268  rspec spec/
+  269  rspec spec/
+  270  rspec spec/
+  271  rspec spec/
+  272  rspec spec/
+  273  git add .
+  274  git commit -m "signing in"
+  275  git push
+  276  git co master
+  277  git branch
+  278  git merge sign-in-out
+  279  git push
+  280  rails console
+  281  cd sample_app/
+  282  rails s
+  283  rails s
+  284  rails s
+  285  rails s
+  286  cd sample_app/
+  287  git pull
+  288  rspec spec/
+  289  rake db:rest
+  290  rake db:reset
+  291  rake db:test:prepare
+  292  rspec spec/
+  293  rspec spec/
+  294  rspec spec/
+  295  rspec spec/
+  296  rspec spec/
+  297  rspec spec/
+  298  rspec spec/
+  299  bundle
+  300  rake db:reset
+  301  rake db:populate
+  302  rake db:test:prepare
+  303  bundle
+  304  bundle
+  305  rspec spec/
+  306  rspec spec/
+  307  rspec spec/
+  308  rails generate migration add_admin_to_users admin:boolean
+  309  rake db:migrate
+  310  rake db:test:prepare
+  311  rspec spec/
+  312  rake db:reset
+  313  rake db:populate
+  314  rake db:test:prepare
+  315  rake db:test:prepare
+  316  rspec spec
+  317  rspec spec/
+  318  rspec spec/
+  319  rspec spec/
+  320  rspec spec/
+  321  rspec spec/
+  322  rspec spec/
+  323  rspec spec/
+  324  rspec spec/
+  325  rspec spec/
+  326  git add .
+  327  git commit -m 'finished user actions'
+  328  git push
+  329  git -b user-microposts
+  330  git co -b microposts
+  331  rails generate model Micropost content:string user_id:integer
+  332  rspec spec/
+  333  rspec spec/
+  334  rspec spec/
+  335  rake db:migrate
+  336  rake db:test:prepare
+  337  rspec spec/
+  338  rspec spec/
+  339  rspec spec/
+  340  rspec spec/
+  341  rspec spec/
+  342  rspec spec/
+  343  rspec spec/
+  344  rspec spec/
+  345  rspec spec/
+  346  rspec spec/
+  347  rspec spec/
+  348  rspec spec/
+  349  rspec spec/
+  350  rspec spec/
+  351  rspec spec/
+  352  rake db:reset
+  353  rake db:populate
+  354  rake db:test:prepare
+  355  rspec spec/
+  356  rspec spec/
+  357  rspec spec/
+  358  rspec spec/
+  359  rails generate integration_test micropost_pages
+  360  rspec spec/
+  361  rspec spec/
+  362  rspec spec/
+  363  rspec spec/
+  364  rspec spec/
+  365  rspec spec/
+  366  ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+  367  rspec spec/
+  368  rspec spec/
+  369  rspec spec/
+  370  rspec spec/
+  371  rspec spec/
+  372  git add .
+  373  git commit -m "user microposts"
+  374  git co master
+  375  git merge microposts
+  376  git push
+  377  git push heroku master
+  378  heroku open
+  379  heroku run rake db:migrate
+  380  heroku run rake db:reset
+  381  rails console
+  382  rails console
+  383  rails console
+  384  mkdir rails_setup
+  385  cd rails_setup/
+  386  mate setup.md
+  387  clear
+  388  rvm list
+  389  rvm use 1.9.2
+  390  rvm use 1.9.2-p180
+  391  rvm use 1.9.3
+  392  ls
+  393  pwd
+  394  cd ..
+  395  ls
+  396  cd ~
+  397  ls
+  398  rails new sample_app
+  399  ls
+  400  cd sample_app/
+  401  ls
+  402  cd Gemfile
+  403  ls
+  404  vi Gemfile
+  405  vi Gemfile
+  406  ls
+  407  chmod +x $rvm_path/hooks/after_cd_bundler
+  408  bundle install --without production --binstubs=./bundler_stubs
+  409  ls
+  410  rails generate rspec:install
+  411  spork --bootstrap
+  412  vi spec/spec_helper.rb
+  413  ls
+  414  ls
+  415  vi .gitignore 
+  416  ls
+  417  pwd
+  418  ls
+  419  git init
+  420  git add .
+  421  git commit -m 'initial commit'
+  422  git remote add origin git@github.com:brickthorn/sample_app.git
+  423  ls
+  424  git push -u origin master
+  425  cd ~
+  426  ls
+  427  ls -la
+  428  cd .ssh
+  429  ls
+  430  vi id_rsa.pub 
+  431  ls
+  432  cd ..
+  433  cd sample_app/
+  434  git push -u origin master
+  435  heroku create --stack cedar
+  436  pwd
+  437  git push heroku master
+  438  heroku run rake db:migrate
+  439  ls
+  440  git co -b static_pages
+  441  ls
+  442  mate
+  443  rails server
+  444  rvm list
+  445  ls
+  446  jobs
+  447  rails generate controller StaticPages home help --no-test-framework
+  448  git add .
+  449  git commit -m "Add a StaticPages controller"
+  450  rails generate integration_test static_pages
+  451  rspec spec/requests/static_pages_spec.rb
+  452  rspec spec/
+  453  rspec spec/
+  454  rspec spec/
+  455  rspec spec/
+  456  rspec spec/requests/static_pages_spec.rb
+  457  rspec spec/
+  458  rspec spec/
+  459  rspec spec/
+  460  rspec spec/
+  461  rspec spec/
+  462  rspec spec/
+  463  rspec spec/
+  464  rspec spec/
+  465  rspec spec/
+  466  rspec spec/
+  467  rspec --drb dpec/
+  468  rspec --drb spec/
+  469  rspec --drb spec/
+  470  time rspec spec/
+  471  time rspec --drb spec/
+  472  history
+  473  history > history.txt
