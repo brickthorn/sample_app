@@ -1,4 +1,3 @@
-spec/spec_helper.rb
 require 'rubygems'
 require 'spork'
 
